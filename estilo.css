@@ -1,0 +1,18 @@
+body{
+	background: #333300;
+}
+
+#conteudo-esquerda{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+#conteudo-centro{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+.banner{
+	width:424px;
+	height: 375px;
+}
