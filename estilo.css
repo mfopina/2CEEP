@@ -2,6 +2,21 @@ body{
 	background: #333300;
 }
 
+#conteudo-principal{
+	width: 1274px;
+	height: auto;
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+.titulo{
+	background: white;
+	width: 1278px;
+}
+#imagemprincipal{
+	width: 1274px;
+}
+
 #conteudo-esquerda{
 	width: 424px;
 	height: auto;
