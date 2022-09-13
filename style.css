@@ -1,0 +1,115 @@
+body{
+	background: #333300;
+}
+#imagemprincipal{
+	width: 1274px;
+	/* altura da div */
+	height: 375px;
+	border: 1px solid #FFFFFF;
+	padding: 1px;
+	margin: 1px;
+}
+.banner{
+	width: 423px;
+	/* altura da div */
+	height: 375px;
+	border: 1px solid rgb(71, 255, 178);
+	padding: 1px;
+	margin: 1px;
+}
+h1{
+	color: #b10707;	
+	text-align: center;
+	background: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+}
+
+p{
+	color: #CCFFFF;	
+	text-align: center;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo-principal {
+	/*Novamente definimos a largura da div*/
+	width: 1274px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+#conteudo-direita {
+	/*Novamente definimos a largura da div*/
+	width: 423px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+#conteudo-centro {
+	/*Novamente definimos a largura da div*/
+	width: 424px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+#conteudo-esquerda {
+	/*Novamente definimos a largura da div*/
+	width: 423px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+.listali{
+		color: #0bf1f1;
+		text-align: left;
+		font-size: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+}
+.primeira_lista{
+display: inline-block;
+margin-right: 10%;
+	
+}
+.mariovssonic{
+	width: 35%;
+	height: auto;
+	border: 10px solid green;
+}
+#conteudo-rodape {
+	/*Novamente definimos a largura da div*/
+	width: 874px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+#conteudo-rodape-direita {
+	/*Novamente definimos a largura da div*/
+	width: 400px;
+	/* altura da div */
+	height: auto;
+	/* divide pelo tamanho */
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}

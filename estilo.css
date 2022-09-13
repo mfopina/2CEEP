@@ -12,9 +12,12 @@ body{
 .titulo{
 	background: white;
 	width: 1278px;
+	height: auto;
+	
 }
 #imagemprincipal{
 	width: 1274px;
+	
 }
 
 #conteudo-esquerda{
@@ -31,3 +34,15 @@ body{
 	width:424px;
 	height: 375px;
 }
+
+#conteudo-rodape{
+	width: 874px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	margin: 1px;	
+}
+#video-rodape{
+	
+}
+

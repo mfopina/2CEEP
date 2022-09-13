@@ -1,0 +1,21 @@
+<html>
+<head><!-- Colocando imagem no cursor: -->
+<script type="text/javascript">
+function cursor()
+{
+trail.style.visibility="visible";
+trail.style.position="absolute";
+trail.style.left=event.clientX-200;
+trail.style.top=event.clientY-25;
+}
+</script> 
+<title>Colocando imagem no cursor:</title>
+</head>
+
+<body  onmousemove="cursor()">
+
+<IMG id="trail" style="VISIBILITY: hidden" src="esporte.bmp" width="20%"
+height="20%"> 
+
+</body>
+</html>
