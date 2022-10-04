@@ -1,0 +1,83 @@
+header{
+    background: #888888; /* cor fundo*/
+    padding: 20px 0; /* espaço para cima e baixo, e sem para direita e esquerda*/
+
+}
+.caixa{
+    position: relative; /* texto no meio*/
+    width: 940px; /* tamanho largura da caixa*/
+    margin: 0 auto; /* calcula a margem automatico*/
+}
+nav {
+    position: absolute; /* ocupa todo o espaço*/
+    top: 110px; /* ficar na topo*/
+    right: 0; /* alinhado totalmente a direita*/
+}
+nav li{
+    display: inline; /* ficar na horizontal*/
+    margin: 0 0 0 15px; /* espaço para esquerda*/
+}
+nav a{
+    text-transform: uppercase; /* texto maiusculo*/
+    color: #000000; /* cor texto*/
+    font-weight: bold; /* texto em negrito*/
+    font-size: 22px; /* tamanho texto*/
+    text-decoration: none; /* tira o sublinhado*/
+
+}
+
+nav a:hover{
+    color:#c78c19; /* cor da ancora com mouse*/
+    text-decoration: underline; /* sublinhar o link*/
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 55px 0;
+}
+.produtos li{
+    display: inline-block; /* alinha na mesma linha*/
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;/*largura borda, estilo borda e cor borda*/
+    border-radius: 10px; /*bordas arredondadas */
+}
+.produtos li:hover {
+    border-color: #c78c19;/* cor da borda com mouse*/
+    font-size: 40px;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+.produtos li:active {
+    border-color: #088c19;   /* cor da borda com mouse*/
+    font-size: 40px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold; /* texto em negrito*/
+}
+.produtos-descricao {
+    font-size: 18px;
+}
+.produtos-preco{
+    font-size: 22px;
+    font-weight: bold; /* texto em negrito*/
+    margin-top: 10px; 
+}
+footer{
+    padding: 0px;
+    text-align: center;
+    background: black;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 20px ;
+}
