@@ -13,3 +13,61 @@ nav {
 	top: 110px; /* ficar no topo*/
 	right: 0; /* alinhado a direita */
 }
+
+nav li{
+	display: inline; /* ficar na horizontal*/
+	margin: 0 0 0 15px; /* espaço para esquerda*/
+}
+
+nav a{
+	text-transform: uppercase;/*maiusculo*/
+	color: #000000;/*cor letra*/
+	font-weight: bold; /*texto*/
+	font-size: 22px; /*tamanho texto*/
+	text-decoration: none; /*tirar sublinanho*/	
+}
+
+nav a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 55px 0;
+}
+
+.produtos li{
+	display: inline-block; /*alinha na mesma linha*/
+	border: 2px solid #000000;
+	text-align: center;
+	width: 30%;
+	margin: 0 1.5%;
+	vertical-align: top;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.produtos li:hover{
+	border-color: aqua;
+	font-size: 30px;
+	border-radius: 50px;
+}
+
+.produtos li:active{
+	border-color: #088c19;
+	font-size: 40px;
+}
+footer{
+	background: #000000;
+	padding: 0;
+	text-align: center;
+}
+
+.copyright{
+	color:white;
+	font-size: 20px;
+	margin: 20px 0 20px;
+}
